@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/authentication"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Authentication"
+        android:fontFamily="@font/poppins"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#4CAF50"/>
+
+
+    <Button
+        android:id="@+id/github_SignIn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/github_32"
+        android:fontFamily="@font/poppins"
+        android:text="Sign In with Github"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/Signin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins"
+        android:drawableLeft="@drawable/google_32"
+        android:text="@string/sign_in_with_google"
+        android:background="@drawable/border"
+        android:textSize="18sp" />
+
+</LinearLayout>
